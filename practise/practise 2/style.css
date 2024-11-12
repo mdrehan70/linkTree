@@ -1,0 +1,50 @@
+
+body{
+    background: pink;
+}
+
+h2{
+    color: rgb(207, 6, 73);
+    text-align: center;
+    text-decoration: underline;
+}
+
+div{
+    position: relative;
+    top: 5px;
+}
+
+.orange{
+    background: orange;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.white{
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    border-radius: 0px 50px 0px 50px;
+}
+
+img{
+    width: 150px;
+    position: relative;
+    left: 24px;
+    top: 24px;
+}
+
+.green{
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+    border-radius: 0px 50px 0px 50px;
+}

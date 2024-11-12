@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+}
+
+.secContainer .upper {
+    min-height: 25vh;
+    background-color: #6b7e86;
+    display: flex;
+    justify-content: center;
+}
+
+.secContainer .upper img {
+    width: 300px;
+}
+
+.secContainer .lower {
+    min-height: 75vh;
+    background-color: #1c2127;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secContainer .lower .image {
+    position: relative;
+    bottom: 90px;
+    width: 150px;
+    border-radius: 200px;
+    border: 3.5px solid #1c2127;
+}
+
+.secContainer .lower h2,
+p,
+nav,
+.box {
+    position: relative;
+    bottom: 55px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secContainer .lower h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.secContainer .lower p {
+    margin-top: 8px;
+    letter-spacing: 5px;
+}
+
+.secContainer .lower nav ul {
+    display: flex;
+    padding: 40px 0;
+}
+
+.secContainer .lower nav ul li {
+    width: 7vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.secContainer .lower nav ul .list {
+    background-color: #dee2e540;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    border-radius: 500px;
+    padding: 10px;
+}
+
+.secContainer .lower nav ul .list:hover {
+    transform: translateY(-8px);
+    transition: transform .1s ease-in-out;
+    background-color: white;
+}
+
+.secContainer .lower .box {
+    width: 40vw;
+    background-color: #dee2e5;
+    margin: 7px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 0;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 6px;
+    cursor: pointer;
+}
+
+.secContainer .lower .box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.9) 0px 18px 36px -18px inset;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+    .secContainer .lower nav ul li {
+        width: 15vw;
+    }
+
+    .secContainer .lower .box {
+        width: 85vw;
+        margin: 7px 0;
+    }
+}

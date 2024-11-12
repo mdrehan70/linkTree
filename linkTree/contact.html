@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="contact.svg">
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xldrqbzn" method="POST">
+        <div class="main">
+            <center>
+                <h2>Contact Me</h2>
+            </center>
+            <div class="form-group">
+                <input type="text" name="name" required placeholder="Name" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" required placeholder="Email" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="text" name="subject" required placeholder="Subject" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <textarea name="message" required placeholder="Message"></textarea>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="btn">Send Message</button>
+            <button type="reset" class="btn reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

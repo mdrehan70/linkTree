@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background: grey;
+}
+
+.yellow{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+}
+
+.blue{
+    background: blue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    position: fixed;
+    left: 200px;
+    top: 200px;
+}
+
+.red{
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    position: fixed;
+    left: 400px;
+    top: 400px;
+}
